@@ -11,4 +11,6 @@ app.use(router)
 
 
 
-app.listen(process.env.PORT || 4000).on('listening', () => console.log('Server running 🚀'))
+app.listen(process.env.PORT || 4000, () => {
+  console.log('Listening Server Running 🚀')
+})
